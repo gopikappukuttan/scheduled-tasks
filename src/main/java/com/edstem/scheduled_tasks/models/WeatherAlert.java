@@ -22,9 +22,9 @@ public class WeatherAlert {
 	private String location;
 	private double temperature;
 	private double humidity;
+	private LocalDateTime timestamp;
 
 	@Enumerated(EnumType.STRING)
 	private AlertLevel alertLevel;
 
-	private LocalDateTime timeStamp;
 }
